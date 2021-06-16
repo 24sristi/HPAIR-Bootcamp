@@ -1,11 +1,18 @@
 # HPAIR-Bootcamp
-## TASKS
 
-# LOGIN PAGE
+# HOW TO ACCESS
+- Clone the rep / download the repo
+- Open login.html
+- Login using the credentials (username: admin, password: pass)
+- Go through Home Page
+
+# TASKS
+
+## LOGIN PAGE
 
 - Login Page + Credentials for Login ( credentials: username: admin, password: pass )
 
-# HOMEPAGE 
+## HOMEPAGE 
 
 - Theme toggle button (Light/Dark) ( Change Theme button on top )
 - Automatic + Manual Image Slider (Image Slider, dots at bottom to manually change)

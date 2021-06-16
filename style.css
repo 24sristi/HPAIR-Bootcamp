@@ -19,9 +19,21 @@ body{
   justify-content: center;
   align-items: center;
 }
-
-.themebtn{
+button{
   margin: 2%;
+  border: 1px solid #293754;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 160px;
+  height: 40px;
+  border-radius: 30px;
+  transition: 1s;
+  cursor: pointer;
+  font-weight: 100;
+  color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .slidearea{
@@ -137,4 +149,17 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  /* margin: 4%; */
+}
+
+.Invert{
+  filter:invert(100%);
+}
+
+.HueRotate{
+  filter:hue-rotate(90deg);
+}
+
+.Saturate{
+  filter:saturate(8);
 }
