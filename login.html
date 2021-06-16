@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Loginstyle.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="details">
+            <div class="heading">
+                <h1>Login</h1>
+                <h3>Please login to continue.</h3>
+            </div>
+            <form action="">
+                <label for="Email">Email</label>
+                <input type="email" name="" id="username">
+                <label for="Pwd">Password</label>
+                <input type="password" name="" id="password">
+                <div class="options">
+                    <div class="submit" onclick="login()">Submit</div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script>
+        function login() {
+            var uname = document.getElementById('username').value;
+            var pass = document.getElementById('password').value;
+            if(uname == "admin" && pass == "pass")
+            {
+                location.assign("home.html");
+            }
+            else{
+                window.alert("Login Failed");
+            }
+        }
+    </script>
+</body>
+
+</html>
